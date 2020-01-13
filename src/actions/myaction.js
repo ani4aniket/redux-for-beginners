@@ -26,3 +26,12 @@ export const anotherName = () => {
     //     })
     // }
 }
+
+export const addWish = () => {
+    return (dispatch) => {
+        dispatch({
+            type: 'ADD_WISH',
+            payload: 'repeat'
+        })
+    }
+}
